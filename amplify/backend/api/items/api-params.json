@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/item",
+            "lambdaFunction": "items",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/item"
+        }
+    ],
+    "resourceName": "items",
+    "apiName": "items",
+    "functionArns": [
+        {
+            "lambdaFunction": "items"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-serverlessexpress-dev-193627-authRole",
+        "unAuthRoleName": "amplify-serverlessexpress-dev-193627-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "items",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

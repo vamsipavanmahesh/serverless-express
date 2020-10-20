@@ -6,5 +6,21 @@
       "service": "Lambda",
       "dependsOn": []
     }
+  },
+  "api": {
+    "items": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "items",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
   }
 }

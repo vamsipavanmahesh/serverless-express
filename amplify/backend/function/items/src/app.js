@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
 
 app.get('/item', function(req, res) {
   // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+  res.json({success: `input query params is ${req.query.a}`, url: req.url});
 });
 
 app.get('/item/*', function(req, res) {
