@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-serverlessexpress-dev-193627-deployment",
-          "S3Key": "amplify-builds/items-466549786a505946676e-build.zip"
+          "S3Key": "amplify-builds/items-4d54494e4932504f4f64-build.zip"
         }
       }
     },
